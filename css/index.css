@@ -8,13 +8,12 @@
 
 body {
   font-family: "lato";
-  font-weight: 700;
   color: rgba(24, 26, 24, 1);
 }
 
 /* Header section */
 #header-div {
-  min-width: 100%;
+  width: 100%;
   max-height: 14vh;
   background-color: rgba(255, 255, 255, 1);
 }
@@ -23,7 +22,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5px 30px;
+  margin: 5px 55px;
 }
 
 #nav-bar img {
@@ -63,21 +62,205 @@ body {
 }
 
 #hero-section #hero-text-div {
-  background: rgba(255, 255, 255, 1);
-  width: 493px;
-  height: 336px;
+  background-color: rgba(255, 255, 255, 1);
+  max-width: 450px;
+  min-height: 310px;
   position: absolute;
-  top: 120px;
-  padding: 60px 80px;
+  top: 150px;
+  padding: 60px 70px;
   border-radius: 0px 60px 60px 0px;
 }
 
 #hero-text-div h2 {
   color: rgba(24, 26, 24, 1);
   font-family: "lato";
-  font-size: 52px;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 60px;
   text-align: left;
   margin-bottom: 20px;
 }
+
+/* Future Section */
+#future-section {
+  min-width: 100%;
+  min-height: 500px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 70px;
+}
+
+#future-section .future-div {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.future-div .future-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 50%;
+  max-height: 378px;
+}
+
+.future-images img {
+  max-width: 320px;
+}
+
+.future-div .future-text {
+  background-color: rgba(242, 240, 242, 1);
+  width: 50%;
+  max-height: 378px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.future-text h2 {
+  font-family: "lato";
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 54px;
+  padding: 10px;
+}
+
+.future-text p {
+  font-family: "lato";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 20px;
+}
+
+/* Feature Section */
+#feature-section {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  gap: 60px;
+}
+
+#feature-section .feature-text {
+  background-color: rgba(255, 255, 255, 1);
+  max-width: 847px;
+  max-height: 172px;
+}
+
+.feature-text h2 {
+  background-color: rgba(255, 255, 255, 1);
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.feature-text p {
+  background-color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 24px;
+  padding: 10px 5px;
+}
+
+.feature-divs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+}
+
+.fa-solid {
+  font-size: 2rem;
+  /* width: 55px; */
+  /* height: 40px; */
+  margin-bottom: 10px;
+}
+
+.divs h4 {
+  margin-bottom: 10px;
+}
+
+.feature-divs .divs {
+  background-color: rgba(226, 241, 232, 1);
+  border-radius: 30px;
+  width: 305px;
+  height: 248px;
+  padding: 32px 40px 32px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.feature-divs h4 {
+    font-weight: bold;
+}
+
+/* Location Section */
+#location-section {
+  max-width: 100%;
+  height: 502px;
+  padding: 0px 80px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-text h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 54px;
+  color: rgba(24, 26, 24, 1);
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.location-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-images .loc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 8px;
+  flex-wrap: wrap;
+}
+
+.loc p {
+font-family: 'lato';
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+text-align: center;
+margin: 15px;
+}
+
+.location-btn {
+  background-color: rgba(6, 71, 73, 1);
+  max-width: 201px;
+  max-height: 48px;
+  padding: 12px 40px;
+  border-radius: 40px;
+  color: rgb(255, 255, 255);
+  margin: 35px;
+}
+
+
+
+/* RESPONSIVINESS */
+/* @media (min-width: 768px) {
+
+} */
