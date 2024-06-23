@@ -98,12 +98,15 @@ body {
 
 #future-section .future-div {
   display: flex;
-  justify-content: center;
+  width: 100%;
+  /* justify-content: center; */
   background-color: rgba(255, 255, 255, 1);
+  border: 1px solid red;
+
 }
 
 .future-div .future-images {
-  width: 100%;
+  width: 50%;
   max-height: 378px;
 }
 
@@ -125,18 +128,21 @@ body {
 
 .future-text h2 {
   font-family: "lato";
-  font-size: 2.5rem;
+  font-size: 48px;
   font-weight: 700;
   line-height: 54px;
-  padding: 0px;
+  /* padding: 0px; */
+  text-align: left;
 }
 
 .future-text p {
   font-family: "lato";
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 400;
   line-height: 20px;
-  padding: 0px;
+  text-align: left;
+  width: 480px;
+  height: 60px;
 }
 
 /* Feature Section */
@@ -205,7 +211,7 @@ body {
 }
 
 /* Location Section */
-#location-section {
+/* #location-section {
   max-width: 100%;
   height: 502px;
   padding: 0px 80px;
@@ -258,7 +264,7 @@ body {
   border-radius: 40px;
   color: rgb(255, 255, 255);
   margin: 35px;
-}
+} */
 
 /* RESPONSIVINESS */
 @media (max-width: 768px) {
@@ -304,6 +310,7 @@ body {
     min-width: 100%;
     min-height: 767px;
     position: relative;
+    background-position: 66% 10%;
   }
 
   #hero-section #hero-text-div {
@@ -357,12 +364,12 @@ body {
   }
 
   .future-images img {
-    width: 170px;
+    width: 49.5%;
     /* height: 160px; */
   }
 
   .future-div .future-text {
-    background-color: rgba(242, 240, 242, 1);
+    background-color: rgb(31, 15, 31);
     width: 80%;
     /* height: 232px; */
     /* padding-top: 32px; */
@@ -478,7 +485,7 @@ body {
   }
 
   /* Location Responsiviness */
-  #location-section {
+  /* #location-section {
     max-width: 100%;
     height: 502px;
     padding: 0px 80px;
@@ -525,16 +532,10 @@ body {
 
   .location-btn {
     background-color: rgba(6, 71, 73, 1);
-    /* max-width: 201px;
-    max-height: 48px;
-    padding: 12px 40px;
-    border-radius: 40px;
-    color: rgb(255, 255, 255);
-    margin: 35px; */
     width: 172px;
     height: 44px;
     padding: 12px 32px 12px 32px;
     gap: 10px;
     border-radius: 40px;
-  }
+  } */
 }
