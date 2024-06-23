@@ -99,14 +99,14 @@ body {
 #future-section .future-div {
   display: flex;
   width: 100%;
-  /* justify-content: center; */
+  justify-content: center;
   background-color: rgba(255, 255, 255, 1);
-  border: 1px solid red;
-
 }
 
 .future-div .future-images {
-  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* width: 50%; */
   max-height: 378px;
 }
 
@@ -356,6 +356,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgba(242, 240, 242, 1);
+    width: 100%;
+    height: auto;
   }
 
   .future-div .future-images {
@@ -365,38 +367,19 @@ body {
 
   .future-images img {
     width: 49.5%;
-    /* height: 160px; */
   }
 
   .future-div .future-text {
-    background-color: rgb(31, 15, 31);
-    width: 80%;
-    /* height: 232px; */
-    /* padding-top: 32px; */
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    /* width: 279px; */
-    height: 168px;
-    gap: 12px;
   }
 
   .future-text h2 {
-    font-family: "lato";
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 36px;
-    /* padding: 10px; */
   }
 
   .future-text p {
     font-family: "lato";
     font-weight: 400;
     line-height: 20px;
-    /* padding: 20px; */
+    padding: 20px;
     font-size: 16px;
     text-align: center;
   }
