@@ -108,7 +108,7 @@ body {
 }
 
 .future-images img {
-  /* max-width: 320px; */
+  max-width: 320px;
 }
 
 .future-div .future-text {
@@ -308,7 +308,7 @@ body {
 
   #hero-section #hero-text-div {
     background-color: rgba(255, 255, 255, 1);
-    width: 360px;
+    width: 420px;
     height: 232px;
     top: 20px;
     padding: 32px;
@@ -349,7 +349,6 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgba(242, 240, 242, 1);
-    border: 1px solid red;
   }
 
   .future-div .future-images {
@@ -373,7 +372,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center; */
-    border: 1px solid red;
     /* width: 279px; */
 height: 168px;
 gap: 12px;
