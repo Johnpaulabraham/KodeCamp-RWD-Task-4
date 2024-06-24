@@ -411,6 +411,9 @@ body {
     height: 378px;
     left: 640px;
     padding: 10px 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-radius: 0px 0px 0px 0px;
   }
 
   .future-text .f-text {
