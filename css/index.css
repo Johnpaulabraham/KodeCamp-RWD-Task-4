@@ -229,11 +229,10 @@ body {
   font-weight: bold;
 }
 
-
-
+/* feature styling end here */
 
 /* Location Section */
-/* #location-section {
+#location-section {
   max-width: 100%;
   height: 502px;
   padding: 0px 80px;
@@ -286,7 +285,183 @@ body {
   border-radius: 40px;
   color: rgb(255, 255, 255);
   margin: 35px;
-} */
+  cursor: pointer;
+}
+
+/* Location section end */
+
+
+/* Bespoke-spaces Begin */
+#bespoke-spaces {
+  /* background-image: url(../images/room.png); */
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%), url(../images/room.png);;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 506px;
+  padding: 140px 80px 140px 80px;
+  margin-bottom: 50px;
+  gap: 60px;
+  position: relative;
+}
+
+.bespoke-text h2{
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+}
+
+.bespoke-text p{
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.bespoke-btn {
+  background-color: rgba(6, 71, 73, 1);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 201px;
+  max-height: 48px;
+  padding: 12px 40px;
+  border-radius: 40px;
+  color: rgb(255, 255, 255);
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+/* Bespoke-spaces end */
+
+
+
+
+/* Corporate Partnerships start here*/
+#partnership-section {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  gap: 60px;
+}
+
+#partnership-section .partnership-text {
+  background-color: rgba(255, 255, 255, 1);
+  max-width: 847px;
+  max-height: 172px;
+}
+
+.partnership-text h2 {
+  background-color: rgba(255, 255, 255, 1);
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.partnership-text p {
+  background-color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 24px;
+  padding: 10px 5px;
+}
+
+.partnership-divs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+}
+
+.fa-solid {
+  font-size: 2rem;
+}
+
+.divs h4 {
+  margin: 10px 0 10px 0px;
+}
+
+.partnership-divs .divs {
+  background-color: rgba(226, 241, 232, 1);
+  border-radius: 30px;
+  width: 305px;
+  height: 248px;
+  padding: 32px 40px 32px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.partnership-divs h4 {
+  font-weight: bold;
+}
+
+/* Corporate Partnerships End here */
+
+
+
+/* Footer styling begin */
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.footer-div ul {
+  list-style-type: none;
+}
+
+.footer-div ul li {
+  color: black;
+}
+
+.footer-div ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-div .link {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.subscribe form {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe form button {
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgba(6, 71, 73, 1);
+  border-color: rgba(6, 71, 73, 1);
+  color: white;
+  border-radius: 40px;
+  width: 158px;
+  height: 48px;
+  padding: 12px;
+  gap: 10px;
+}
+
+/* Footer styling end */
+
+
+
 
 /* RESPONSIVINESS */
 @media (max-width: 767px) {
@@ -442,7 +617,6 @@ body {
     text-align: center;
   }
 
-
   /* Feature Responsiviness */
   #feature-section {
     background-color: rgba(255, 255, 255, 1);
@@ -526,11 +700,10 @@ body {
     font-weight: bold;
   }
 
-
   /* Location Responsiviness */
-  /* #location-section {
+  #location-section {
     max-width: 100%;
-    height: 502px;
+    /* height: 502px; */
     padding: 0px 80px;
     margin-top: 20px;
     display: flex;
@@ -580,5 +753,95 @@ body {
     padding: 12px 32px 12px 32px;
     gap: 10px;
     border-radius: 40px;
-  } */
+  }
+
+  /* location styling end */
+
+
+  /* Cooperate parternship start*/
+  #partnership-section {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    width: 100%;
+    /* height: 980px; */
+    padding: 0px 16px;
+    gap: 40px;
+  }
+
+  #partnership-section .partnership-text {
+    background-color: rgba(255, 255, 255, 1);
+    max-width: 847px;
+    max-height: 172px;
+  }
+
+  .partnership-text h2 {
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  .partnership-text p {
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .partnership-divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    width: 100%;
+    height: 776px;
+    gap: 20px;
+  }
+
+  .fa-solid {
+    font-size: 40px;
+  }
+
+  .divs h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .divs p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    width: 279px;
+    height: 36px;
+  }
+
+  .partnership-divs .divs {
+    background-color: rgba(226, 241, 232, 1);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 100%;
+    /* height: 188px; */
+    gap: 16px;
+  }
+
+  .parternship-divs h4 {
+    font-weight: bold;
+  }
+
+  /* cooperate parternship end */
+
+  footer {}
 }
